@@ -21,7 +21,17 @@ public class Basics {
 		
 	driver.findElement(By.id("ta1")).sendKeys("hello");
 		//driver.findElement(By.id("alert1")).click();
-		driver.findElement(By.linkText("compendiumdev")).click();
+	//	driver.findElement(By.linkText("compendiumdev")).click();
+	//driver.findElement(By.partialLinkText("compendiu")).click();
+	//System.out.println(	driver.findElement(By.id("pah")).getText());
+	
+	System.out.println(driver.getTitle());
+	System.out.println(driver.getCurrentUrl());
+	
+	System.out.println(driver.findElement(By.xpath("//input[@class='gsc-search-button']")).getAttribute("value"));
+	
+
+
 	
 		
 		
