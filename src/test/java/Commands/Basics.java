@@ -25,12 +25,12 @@ public class Basics {
 	//driver.findElement(By.partialLinkText("compendiu")).click();
 	//System.out.println(	driver.findElement(By.id("pah")).getText());
 	
-	System.out.println(driver.getTitle());
-	System.out.println(driver.getCurrentUrl());
+//	System.out.println(driver.getTitle());
+	//System.out.println(driver.getCurrentUrl());
 	
-	System.out.println(driver.findElement(By.xpath("//input[@class='gsc-search-button']")).getAttribute("value"));
+	//System.out.println(driver.findElement(By.xpath("//input[@class='gsc-search-button']")).getAttribute("value"));
 	
-
+System.out.println(driver.findElement(By.xpath("//*[@id='hbutton']")).isDisplayed());
 
 	
 		
