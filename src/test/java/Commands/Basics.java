@@ -30,7 +30,14 @@ public class Basics {
 	
 	//System.out.println(driver.findElement(By.xpath("//input[@class='gsc-search-button']")).getAttribute("value"));
 	
-System.out.println(driver.findElement(By.xpath("//*[@id='hbutton']")).isDisplayed());
+//System.out.println(driver.findElement(By.xpath("//*[@id='hbutton']")).isDisplayed());
+//System.out.println(driver.findElement(By.xpath("//*[@id='but1']")).isEnabled());
+//System.out.println(driver.findElement(By.xpath("//*[@type='button'][@value='Login']")).isEnabled());
+System.out.println(driver.findElement(By.xpath("//*[@type='radio'][@value='Bicycle']")).isSelected());
+System.out.println(driver.findElement(By.xpath("//*[@type='radio'][@value='Bike']")).isSelected());
+
+
+
 
 	
 		
